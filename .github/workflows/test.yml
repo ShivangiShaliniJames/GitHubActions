@@ -35,7 +35,8 @@ jobs:
       - name: Build with Maven
         run: mvn clean package
 
-      - name: Run a Suite of Tests
-        run: mvn -Dtest=CalculatorTest test
+      - name: Run All Tests
+        run: mvn test
+
 
 
